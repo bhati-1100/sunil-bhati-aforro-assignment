@@ -50,6 +50,7 @@ const UsersPage = () => {
           description={error?.message}
           showIcon
           className="mb-4"
+          closable
         />
       )}
 
