@@ -1,3 +1,4 @@
+import React from "react";
 import { Table } from "antd";
 import type { ColumnsType } from "antd/es/table";
 import type { User } from "../../../services/Types/user";
@@ -45,4 +46,4 @@ const Usertable: React.FC<UserTableProps> = ({ users, isLoading }) => {
   );
 };
 
-export default Usertable;
+export default React.memo(Usertable);
